@@ -1,10 +1,13 @@
 # pi-bike-python-client
 
 ## Installation
+```
 git clone https://github.com/89jd/pi-bike-python-client
 cd pi-bike-python-client
+python -m venv .venv
 pip install -r requirements.txt
 python client.py [debug]
+```
 
 ## Config File example
 
