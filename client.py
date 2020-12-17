@@ -49,7 +49,7 @@ if __name__ == "__main__":
             
         def delay_and_switch_off():
             time.sleep(10)
-            if not tracking_screen.is_idle:
+            if tracking_screen.is_idle:
                 output.switch_backlight(False)
 
         Thread(daemon=True, target=delay_and_switch_off)
