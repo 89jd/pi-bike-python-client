@@ -16,7 +16,7 @@ output_property = config.properties.output_type
 remote_properties = getattr(config.properties, 'remote', None) 
 pi_properties = getattr(config.properties, 'pi_gpio', None) 
 
-debug = len(sys.argv) > 2 and sys.argv[2] == 'debug'
+debug = len(sys.argv) > 1 and sys.argv[1] == 'debug'
 
 if __name__ == "__main__":
     socket_client = SocketClient()
