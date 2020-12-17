@@ -6,6 +6,7 @@ git clone https://github.com/89jd/pi-bike-python-client
 cd pi-bike-python-client
 python -m venv .venv
 pip install -r requirements.txt
+sudo apt install python3-numpy
 python client.py [debug]
 ```
 
